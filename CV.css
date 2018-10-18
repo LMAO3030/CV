@@ -1,0 +1,29 @@
+aside {
+    width: 20%;
+    float: left;
+    background-color: white;
+}
+blockquote{
+    border: 4px double black;
+    width: 450px;
+    height: 120px;
+}
+
+blockquote1{
+    border: 4px double black;
+    height: 100px;
+    width: 100px;
+}
+
+
+h1{
+}
+.hej{
+    font-size:25px;
+}
+.hej2{
+    
+font-size:25px; 
+    
+    
+}
