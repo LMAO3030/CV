@@ -1,9 +1,32 @@
 body{
     width: 90%;
     margin: 0 auto;
+    background: url(abstract-ancient-antique-235985.jpg)
     
 }
-
+}
+header {
+    width: 100%;
+    background-color: grey;
+}
+.column {
+    float: left;
+    width: 50%;
+    
+}
+.column1 {
+    
+   float: left;
+    width: 40%;
+    border-right: 1px solid black;
+    
+}
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
 .spalt1 {
     width: 30%;
     float: left;
@@ -23,18 +46,14 @@ body{
     background-color: white;
     border-left: 1px solid black;
 }
-p{
-    border: 4px double black;
+p1{
+    
     width: 450px;
     height: 120px;
     padding:2px;
+
 }
 
-blockquote1{
-    border: 4px double black;
-    height: 450px;
-    width: 120px;
-}
 h1{
 }
 .hej{
@@ -57,3 +76,20 @@ font-size:25px;
  
     
 }
+.hr{
+    
+  
+    background-color: white;
+    border-bottom: 1px solid black;
+    
+}
+img{
+   
+  width: 30%;
+    height: auto;
+    
+}
+
+    
+
+
